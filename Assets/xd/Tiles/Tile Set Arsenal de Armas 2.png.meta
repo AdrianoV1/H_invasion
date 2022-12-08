@@ -1,0 +1,2873 @@
+fileFormatVersion: 2
+guid: 488ff9241722a484a8151579cd1b2d0a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a915914af8a01442ae6413b8adf184f
+      internalID: 683371889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7703fd9dfe11a640b606b4260b39e97
+      internalID: -1457960027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69d244ce7228d44cb25110791ff0195
+      internalID: 920149074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa08b68bbe3f58847ad9263c4143dd59
+      internalID: 1754349182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd0113870c1c542a96d777e7fe6364
+      internalID: -1455422345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4cb46ffce166646bd190d0fcbcbac4
+      internalID: 22604679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195136ae1c98ea74d8a3a3c54f23636a
+      internalID: -1680755943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_7
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3ee064d1a2abe4b9980490a8c6e741
+      internalID: 371066623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_8
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffaeadb44c29f84c8e64577ed8eab3a
+      internalID: 979306187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_9
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed287629589cf2409a4b2336b0041e5
+      internalID: 621536275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_10
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b552e4894145194ba2300d2344a0c81
+      internalID: 1975340990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1464
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a1d7178410eb540962dd1b64d17e15
+      internalID: 1619806485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f8bf916b27e5546a7c23f2c9ed028e
+      internalID: -271264218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a370fc4d78239294db088e57a31a219c
+      internalID: 2076688998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b9ee054f0e9734f8b30e9f7e06c421
+      internalID: -814050010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_15
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5345cb1df14042b00a554ee6e862a
+      internalID: -1547142583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20044b5b54fe2a042bc0fd5a62c2f13f
+      internalID: -2111868981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f319a814f5df59f40ae3917a46f48c14
+      internalID: -2000207928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_18
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e26fe8730138145b605caa76192ca5
+      internalID: -565226216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_19
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0fa4a589565de45a93e09e80fc2ca7
+      internalID: -667073351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9581b94e2afe0642a02f9aff1f84acb
+      internalID: -156043587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_21
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c943a73540ccd143977d0e63250fa54
+      internalID: 734642467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_22
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fec4063e77bc428029a666d8e41d3
+      internalID: -301517596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_23
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1331
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594ec87ff450f3345ad5d4ef56ead533
+      internalID: 329029090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d2a82e213fe94c8d4f12e80eaab12
+      internalID: -759161524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_25
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9900db866cbb0645b847e99e13fc515
+      internalID: 490227925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de03cf0d327ba9438b54e412c46e1e4
+      internalID: 1245254223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_27
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbde3933616f9b4f9d00a36e4891702
+      internalID: -2048171809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_28
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de07061efcdc543a071e2735a45b7e
+      internalID: 1441729599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_29
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faefb7f02d6dff4b84f5dbac8caa485
+      internalID: 1506502587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_30
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b66e487e3606248a2705ea7ffad32a
+      internalID: 1701838936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_31
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fd2f6b650dfa846bcf64edcb312847
+      internalID: 1477608341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_32
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f248153ca09874eac45a72bedaefa7
+      internalID: -1696191854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_33
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebdfbd039694824db79726ce9eee593
+      internalID: 1502224714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_34
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1198
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d8c6bea16100848890d424fcb4cd5e
+      internalID: 652241464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b054e220f06193646bd517c01a1e9a14
+      internalID: 1072631455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67354a314c4fd949a37ad34a7c479a1
+      internalID: 566618761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a582c75728abf9345bcc560b44d1c63b
+      internalID: 405017829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9959b9587fb141f438e81f1b51fe314c
+      internalID: 1241922656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a295176f89d00f41ad8b11902255f55
+      internalID: -482082832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_40
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28f82bd1047b9f419e0483300d02f3e
+      internalID: -797342242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_41
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ee50613877924d9691af4599749d8
+      internalID: 1818297951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_42
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83604bc25ff80744a94b93750ce0a5f0
+      internalID: -303575433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_43
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba49a6792bff054f8a256e962bb11fa
+      internalID: -2066151703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_44
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c13d1209bb26c646b5c58a05d546e40
+      internalID: 460722082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_45
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2075405d7689b8b45868155267d868f0
+      internalID: -738230566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_46
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1065
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba7298bd6f170a4e9de59cb45886fcb
+      internalID: -1891551491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_47
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30836fba5e101a040aacb80211d83401
+      internalID: -1015981661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_48
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933b1b80a93c79c40a286c1c6382b475
+      internalID: -1016635391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_49
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e500dd5aa81c42bea55e1b5e641fb
+      internalID: -243071893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e984197765e7e4a4980dfe861734af42
+      internalID: 1890838324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_51
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49a8f32873ad0c42bbdba6dcb29f30e
+      internalID: 7061013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_52
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1cb3a0b6c928d4a917bd3b75c36cbd
+      internalID: 77752408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_53
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcf49e07e9c412489a3becb1ae5f1fa
+      internalID: 2121247958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_54
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69414d414e7da1e4fb63081f5e61702d
+      internalID: -660977076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_55
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33acb82842997843a44824efd3b0573
+      internalID: -1857632647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_56
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6674b16f0eb00b4429b75e265a3f3013
+      internalID: 601757745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_57
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d795269ccbe55604c8c9386eedf7f2ba
+      internalID: -941157865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_58
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 932
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185bcadbca74d5b40acffadd943467a6
+      internalID: 2138593376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_59
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9234c516bb6c4e816c0ac6566f737
+      internalID: 1830605841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_60
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee4006127bf46246a9f1f41855176b7
+      internalID: -1246233336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_61
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f41de447958b64298361d75dd84739
+      internalID: 1724999206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_62
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bc1b2ccf943fb41b91dd1c9d4d12d3
+      internalID: -768540892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_63
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d5048474085347a7868eff668f3cb
+      internalID: 1978721175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_64
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57903ee3a9e5b7340a07667e4ed0942f
+      internalID: 164457703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_65
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25104b1034e3f96429fd4ea3a2bfc45c
+      internalID: -794247631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_66
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a79ac9646be1643b4020295396862b
+      internalID: -1831594286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_67
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb1e6bbc831be43b5c51f546f88e5b
+      internalID: 1604749831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_68
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbdcb5a12d985143b11326b9014db06
+      internalID: 776167258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_69
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f882975abc809524383808dec3899435
+      internalID: -874966445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_70
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 799
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e6df6483595f646a7fc83ad61e06ee
+      internalID: -509963889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_71
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4809362090f6985448e47abd1e39c4f9
+      internalID: 78179992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_72
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223e83b85c166743aadbf121769d2f0
+      internalID: 2136230017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_73
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4002779588ea6e54ea373b0fef4c7fc1
+      internalID: 1615530052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_74
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c4d9e426ac9d4d8d5eab4972c35e2
+      internalID: -1951287498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_75
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19b7d3c4e981cb4090a558881bf6957
+      internalID: -1776554547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_76
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 666
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168f958e3fb0074d89df5db14080b36
+      internalID: 1922224926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_77
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928219388c2f2724dac2c8cfc56e2a9c
+      internalID: 335612120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_78
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921c61dcc24ceee479d922258db59a2a
+      internalID: 376149010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_79
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64887b611ec8cb9499e9fd34e662d12a
+      internalID: 1612985372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_80
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef25c766b65e674aa6a9e01971b3682
+      internalID: 924565266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_81
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ee722dad515d04e9824bf02b6e7a05
+      internalID: -1215613709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_82
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e320a149e3797434e9e918fff6b6a231
+      internalID: 292100609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_83
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89842048c068024b898cd0183659b09
+      internalID: -356730319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_84
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c685407ab6ffcc4c949f1904136e1dc
+      internalID: 1842575192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_85
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bdfe8bacef8014b8378ef9e9ef4fa6
+      internalID: 1101811871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_86
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f517ca2b1086fb4e8c53c2c1d7228a0
+      internalID: 559419927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_87
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3717bb73dedb4a8873802cab50d80
+      internalID: -1040929811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_88
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 533
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4540b50253d91ca4fbda11d18adc1cb2
+      internalID: -364483278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_89
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb52072ad15ec84a98e87d862ac7b50
+      internalID: -1653268868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_90
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140f9252a0cca9741af7330a6f5cc5cd
+      internalID: 729961732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe351ebbfba870147b7dc0e1e79bb83e
+      internalID: 1399393761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_92
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efc75bfb02b04f4da280bab2da52c9d
+      internalID: 1218956847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_93
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770f68b4ee5d2474f8a87a237f102315
+      internalID: -1477280863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_94
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c258ec0f637884e4bb2872b26ef7fb60
+      internalID: -1814103933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_95
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e46a9b9bf2879843bdc71361ee6121d
+      internalID: 933771591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_96
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8b039511813749a1f8f64264a901f
+      internalID: -64843505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_97
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4ade84767ede246b35aae007154d58
+      internalID: -1642250365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_98
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7a2d3889aa6f840a75fcbd8406a4c1
+      internalID: -727155046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_99
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b5de3ccca8f9c4e8934a230ef0fd77
+      internalID: -1335263963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_100
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 400
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30267f5d8f54fe949a6e575dad0c3944
+      internalID: -1777817752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff703618a083fb64aaabfa0bd3275db6
+      internalID: -249699202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_102
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9030f658ebeb14b8795bf44427870b
+      internalID: -1160657302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_103
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e4892ed827b334bac71a6b28d05285
+      internalID: 2138362330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_104
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae498db03c6b1247801ab405725fc9d
+      internalID: -370165655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_105
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b584e683a4f5145acac85ff64306c6
+      internalID: -1991284511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_106
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ffef6b5ad11b44bb10dd5b48f9b56
+      internalID: 230115094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_107
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bab1e6e363868499c47a0858ded424
+      internalID: 1115897535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_108
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37673bb5ab070b8409f4a1329b02a9e2
+      internalID: 37627516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_109
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d92635d90002343be940d7e840969d
+      internalID: 956037716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_110
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26a1c5865b27244097919a4f6acd451
+      internalID: 1580603173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_111
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dc6dc216bd4e3408fb387af1a17c6d
+      internalID: -609534135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_112
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 267
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0c6c2dc23db6f42875594118188648
+      internalID: 910316103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_113
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166392dd251b9e143ba5803f42b4a8ce
+      internalID: -726158556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_114
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26855a45cea3a934790c321d2e9ca978
+      internalID: -2029321577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_115
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c548b2155f7fc4438288820fd857125
+      internalID: -458001015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_116
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e996dd1980913469a3a20071f6ac1c
+      internalID: 147484718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_117
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e64f4843c430a4ab653f8e5809053b
+      internalID: -42936375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_118
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 134
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dbb5684ef7bbc4c9b94c411ffae479
+      internalID: -735271205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_119
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f862c6b5089ec540b52a577ff7a4de2
+      internalID: 1848564015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_120
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c84ca0f27d4646a58b172a09e8e68
+      internalID: 365254808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_121
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab716c1c0fd89f40ae5b9376b17e3f3
+      internalID: 839257493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_122
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50685e301daa3d547ac44bb55ee4019d
+      internalID: -740909714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_123
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b9af267bbf274783b41b60d50b797
+      internalID: -1138660190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Set Arsenal de Armas 2_124
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aacca413cfb06044a3ef9ecb2ba5584
+      internalID: -663501543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile Set Arsenal de Armas 2_2: 920149074
+      Tile Set Arsenal de Armas 2_24: -759161524
+      Tile Set Arsenal de Armas 2_73: 1615530052
+      Tile Set Arsenal de Armas 2_4: -1455422345
+      Tile Set Arsenal de Armas 2_104: -370165655
+      Tile Set Arsenal de Armas 2_116: 147484718
+      Tile Set Arsenal de Armas 2_65: -794247631
+      Tile Set Arsenal de Armas 2_86: 559419927
+      Tile Set Arsenal de Armas 2_55: -1857632647
+      Tile Set Arsenal de Armas 2_58: 2138593376
+      Tile Set Arsenal de Armas 2_79: 1612985372
+      Tile Set Arsenal de Armas 2_51: 7061013
+      Tile Set Arsenal de Armas 2_90: 729961732
+      Tile Set Arsenal de Armas 2_105: -1991284511
+      Tile Set Arsenal de Armas 2_99: -1335263963
+      Tile Set Arsenal de Armas 2_102: -1160657302
+      Tile Set Arsenal de Armas 2_28: 1441729599
+      Tile Set Arsenal de Armas 2_84: 1842575192
+      Tile Set Arsenal de Armas 2_15: -1547142583
+      Tile Set Arsenal de Armas 2_13: 2076688998
+      Tile Set Arsenal de Armas 2_27: -2048171809
+      Tile Set Arsenal de Armas 2_124: -663501543
+      Tile Set Arsenal de Armas 2_31: 1477608341
+      Tile Set Arsenal de Armas 2_81: -1215613709
+      Tile Set Arsenal de Armas 2_56: 601757745
+      Tile Set Arsenal de Armas 2_113: -726158556
+      Tile Set Arsenal de Armas 2_78: 376149010
+      Tile Set Arsenal de Armas 2_123: -1138660190
+      Tile Set Arsenal de Armas 2_106: 230115094
+      Tile Set Arsenal de Armas 2_48: -1016635391
+      Tile Set Arsenal de Armas 2_38: 1241922656
+      Tile Set Arsenal de Armas 2_72: 2136230017
+      Tile Set Arsenal de Armas 2_52: 77752408
+      Tile Set Arsenal de Armas 2_36: 566618761
+      Tile Set Arsenal de Armas 2_40: -797342242
+      Tile Set Arsenal de Armas 2_49: -243071893
+      Tile Set Arsenal de Armas 2_57: -941157865
+      Tile Set Arsenal de Armas 2_94: -1814103933
+      Tile Set Arsenal de Armas 2_21: 734642467
+      Tile Set Arsenal de Armas 2_34: 652241464
+      Tile Set Arsenal de Armas 2_82: 292100609
+      Tile Set Arsenal de Armas 2_44: 460722082
+      Tile Set Arsenal de Armas 2_64: 164457703
+      Tile Set Arsenal de Armas 2_120: 365254808
+      Tile Set Arsenal de Armas 2_103: 2138362330
+      Tile Set Arsenal de Armas 2_47: -1015981661
+      Tile Set Arsenal de Armas 2_75: -1776554547
+      Tile Set Arsenal de Armas 2_12: -271264218
+      Tile Set Arsenal de Armas 2_14: -814050010
+      Tile Set Arsenal de Armas 2_85: 1101811871
+      Tile Set Arsenal de Armas 2_33: 1502224714
+      Tile Set Arsenal de Armas 2_122: -740909714
+      Tile Set Arsenal de Armas 2_119: 1848564015
+      Tile Set Arsenal de Armas 2_100: -1777817752
+      Tile Set Arsenal de Armas 2_93: -1477280863
+      Tile Set Arsenal de Armas 2_62: -768540892
+      Tile Set Arsenal de Armas 2_77: 335612120
+      Tile Set Arsenal de Armas 2_121: 839257493
+      Tile Set Arsenal de Armas 2_54: -660977076
+      Tile Set Arsenal de Armas 2_98: -727155046
+      Tile Set Arsenal de Armas 2_3: 1754349182
+      Tile Set Arsenal de Armas 2_53: 2121247958
+      Tile Set Arsenal de Armas 2_19: -667073351
+      Tile Set Arsenal de Armas 2_5: 22604679
+      Tile Set Arsenal de Armas 2_7: 371066623
+      Tile Set Arsenal de Armas 2_22: -301517596
+      Tile Set Arsenal de Armas 2_88: -364483278
+      Tile Set Arsenal de Armas 2_11: 1619806485
+      Tile Set Arsenal de Armas 2_59: 1830605841
+      Tile Set Arsenal de Armas 2_1: -1457960027
+      Tile Set Arsenal de Armas 2_37: 405017829
+      Tile Set Arsenal de Armas 2_76: 1922224926
+      Tile Set Arsenal de Armas 2_10: 1975340990
+      Tile Set Arsenal de Armas 2_108: 37627516
+      Tile Set Arsenal de Armas 2_69: -874966445
+      Tile Set Arsenal de Armas 2_25: 490227925
+      Tile Set Arsenal de Armas 2_112: 910316103
+      Tile Set Arsenal de Armas 2_101: -249699202
+      Tile Set Arsenal de Armas 2_107: 1115897535
+      Tile Set Arsenal de Armas 2_110: 1580603173
+      Tile Set Arsenal de Armas 2_39: -482082832
+      Tile Set Arsenal de Armas 2_95: 933771591
+      Tile Set Arsenal de Armas 2_18: -565226216
+      Tile Set Arsenal de Armas 2_87: -1040929811
+      Tile Set Arsenal de Armas 2_42: -303575433
+      Tile Set Arsenal de Armas 2_66: -1831594286
+      Tile Set Arsenal de Armas 2_45: -738230566
+      Tile Set Arsenal de Armas 2_43: -2066151703
+      Tile Set Arsenal de Armas 2_50: 1890838324
+      Tile Set Arsenal de Armas 2_41: 1818297951
+      Tile Set Arsenal de Armas 2_96: -64843505
+      Tile Set Arsenal de Armas 2_23: 329029090
+      Tile Set Arsenal de Armas 2_70: -509963889
+      Tile Set Arsenal de Armas 2_32: -1696191854
+      Tile Set Arsenal de Armas 2_26: 1245254223
+      Tile Set Arsenal de Armas 2_114: -2029321577
+      Tile Set Arsenal de Armas 2_29: 1506502587
+      Tile Set Arsenal de Armas 2_60: -1246233336
+      Tile Set Arsenal de Armas 2_68: 776167258
+      Tile Set Arsenal de Armas 2_111: -609534135
+      Tile Set Arsenal de Armas 2_83: -356730319
+      Tile Set Arsenal de Armas 2_6: -1680755943
+      Tile Set Arsenal de Armas 2_97: -1642250365
+      Tile Set Arsenal de Armas 2_20: -156043587
+      Tile Set Arsenal de Armas 2_74: -1951287498
+      Tile Set Arsenal de Armas 2_16: -2111868981
+      Tile Set Arsenal de Armas 2_67: 1604749831
+      Tile Set Arsenal de Armas 2_91: 1399393761
+      Tile Set Arsenal de Armas 2_17: -2000207928
+      Tile Set Arsenal de Armas 2_35: 1072631455
+      Tile Set Arsenal de Armas 2_89: -1653268868
+      Tile Set Arsenal de Armas 2_80: 924565266
+      Tile Set Arsenal de Armas 2_118: -735271205
+      Tile Set Arsenal de Armas 2_8: 979306187
+      Tile Set Arsenal de Armas 2_115: -458001015
+      Tile Set Arsenal de Armas 2_109: 956037716
+      Tile Set Arsenal de Armas 2_0: 683371889
+      Tile Set Arsenal de Armas 2_30: 1701838936
+      Tile Set Arsenal de Armas 2_46: -1891551491
+      Tile Set Arsenal de Armas 2_61: 1724999206
+      Tile Set Arsenal de Armas 2_117: -42936375
+      Tile Set Arsenal de Armas 2_63: 1978721175
+      Tile Set Arsenal de Armas 2_9: 621536275
+      Tile Set Arsenal de Armas 2_71: 78179992
+      Tile Set Arsenal de Armas 2_92: 1218956847
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

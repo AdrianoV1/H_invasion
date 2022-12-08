@@ -1,0 +1,969 @@
+fileFormatVersion: 2
+guid: 898389672de73ac41a7734326f7b672f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: elaine_gun
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 509
+      y: 4
+      width: 741
+      height: 345
+    spriteID: a646ddfc99fedb948916467870ed5dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 236, y: -668}
+  - name: Pintura interactiva
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 1760
+      width: 235
+      height: 266
+    spriteID: 8f5d7ccbe01b40e48a92578b0d0663ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 683, y: -836}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 723
+      width: 378
+      height: 464
+    spriteID: 2b69e2f1a478ee3498b8377b5442aedd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 624, y: -1712}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1310
+      y: 871
+      width: 232
+      height: 502
+    spriteID: 7c09eb66ed3e24a4a91b249ce5e730f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1310, y: -1033}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1024
+      y: 1195
+      width: 257
+      height: 557
+    spriteID: 70be0dbe7912d1541942971c4d5b0604
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1022, y: -222}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1701
+      width: 219
+      height: 266
+    spriteID: 6ff37a0f563ee2645ab37889c8f5521e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -152, y: 470}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 357
+      width: 490
+      height: 358
+    spriteID: 7805c174253615b46bb586e5e6923324
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 635, y: -998}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 497
+      height: 861
+    spriteID: c8cc02b830f5c1e438b4e41474465110
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -142, y: -1619}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1310
+      y: 357
+      width: 309
+      height: 506
+    spriteID: bf04576825aa15e4e9d3d320ab7a158a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 887, y: -1517}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1627
+      y: 357
+      width: 315
+      height: 450
+    spriteID: 59277ec21d54df047b29d137b2839499
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1015, y: -1121}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 1701
+      width: 198
+      height: 293
+    spriteID: 99eab972be393ca489beb9a12e6f9dfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -585, y: 458}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1310
+      y: 1381
+      width: 306
+      height: 169
+    spriteID: 8e69847b41d46154fb6c0fac265fcb01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1121, y: 1380}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 509
+      y: 357
+      width: 295
+      height: 812
+    spriteID: 9bf1b08841867c048a60e58a01c4e4ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 332, y: -391}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 1195
+      width: 204
+      height: 783
+    spriteID: 771c1e4ccabfc264799b1eccf75f9505
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 651, y: 1132}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1310
+      y: 1558
+      width: 307
+      height: 168
+    spriteID: 94fea34bf2fb2e544a855566801509cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 833, y: 1558}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 873
+      width: 311
+      height: 820
+    spriteID: 881ac403f1f298b4e9a8ce8aced2b15f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -377, y: 134}
+  - name: <Grupo>
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 509
+      y: 1177
+      width: 207
+      height: 775
+    spriteID: 95ec8dc7307871b43b9c12738d249923
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 101, y: 1107}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: elaine_gun
+    spriteName: elaine_gun
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a646ddfc99fedb948916467870ed5dd8
+    layerID: 125
+    mosaicPosition: {x: 509, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LunaDeCasco
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 23f1ea32d1e2a8a47b74ab9e42d16400
+    layerID: 121
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: Pintura interactiva
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 8f5d7ccbe01b40e48a92578b0d0663ab
+    layerID: 119
+    mosaicPosition: {x: 1024, y: 1760}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cabeza
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 76693ceb1f3e76641a83f3b76b5778ce
+    layerID: 90
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 09760ed903baba24990564f35aeb30a7
+    layerID: 88
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 2b69e2f1a478ee3498b8377b5442aedd
+    layerID: 87
+    mosaicPosition: {x: 812, y: 723}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BrazoDerecho
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 32f4cdcb48c1e7f4bab008b3fb7c2ebd
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 6
+    spriteID: e0d0f3442bec9ad4b9199f91bc9bf300
+    layerID: 82
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 7c09eb66ed3e24a4a91b249ce5e730f0
+    layerID: 81
+    mosaicPosition: {x: 1310, y: 871}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AnteDerecho
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 085bcbe07e977dc4d85ad3b27dd066fc
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 9
+    spriteID: add1bd4524fdfb34b8c43fba936f8222
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 70be0dbe7912d1541942971c4d5b0604
+    layerID: 75
+    mosaicPosition: {x: 1024, y: 1195}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ManoDerecha
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 65487fdfb08ffb14684913258db03675
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 12
+    spriteID: b323b6060153baa4fad5cf57e7996052
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 6ff37a0f563ee2645ab37889c8f5521e
+    layerID: 69
+    mosaicPosition: {x: 4, y: 1701}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pelvis
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ecb2ecd6af07aab4795ddd752a220fe2
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 15
+    spriteID: 2fefbfc7d76aebe47bd2c90b153c0264
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 7805c174253615b46bb586e5e6923324
+    layerID: 63
+    mosaicPosition: {x: 812, y: 357}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Torso
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 51c64b0bcbe772d4bb48c630b7796bc8
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 18
+    spriteID: 1ead3f49334e1f149ba99cd9397d015f
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 19
+    spriteID: c8cc02b830f5c1e438b4e41474465110
+    layerID: 57
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BrazoIzquierdo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7594fe63bab3f3e45831bf06e87fa019
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 21
+    spriteID: d0c6cd0a6711ac741915c5165e56e488
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 22
+    spriteID: bf04576825aa15e4e9d3d320ab7a158a
+    layerID: 51
+    mosaicPosition: {x: 1310, y: 357}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AnteIzquierdo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: a33bcd7df9e99e34a9d23112d4594aac
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 24
+    spriteID: 6ef65b22353b9fb45a20346cf79ddd83
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 59277ec21d54df047b29d137b2839499
+    layerID: 45
+    mosaicPosition: {x: 1627, y: 357}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ManoIzquierda
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7473bfa72ab546b46a49eb237f56c182
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 27
+    spriteID: b1ec5876adfceec46ac6bc447ec2c973
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 28
+    spriteID: 99eab972be393ca489beb9a12e6f9dfa
+    layerID: 39
+    mosaicPosition: {x: 231, y: 1701}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PieDerecho2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 94a27eb3c259e2d4d83a67e79b634f66
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 8192625f0eb729d448e32b48ee220ba8
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 8e69847b41d46154fb6c0fac265fcb01
+    layerID: 33
+    mosaicPosition: {x: 1310, y: 1381}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PiernaDerecha
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c7f391f064b6aca4a82acf31155e8d2b
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 33
+    spriteID: b8c18c8e1966c8641af9d7dea8738356
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 34
+    spriteID: 9bf1b08841867c048a60e58a01c4e4ec
+    layerID: 27
+    mosaicPosition: {x: 509, y: 357}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PantoDerecha
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 05f01ae361997fe43a37f8b46eac2353
+    layerID: 24
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 36
+    spriteID: 288c0ed872028784782b91b831f5d4b4
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 771c1e4ccabfc264799b1eccf75f9505
+    layerID: 21
+    mosaicPosition: {x: 812, y: 1195}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PieIzquierdo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b284b7c9cafd7114cb80edd165731827
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 39
+    spriteID: 989593c419b59cf468f8abe49f4bb121
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 94fea34bf2fb2e544a855566801509cb
+    layerID: 15
+    mosaicPosition: {x: 1310, y: 1558}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PiernaIzquierda
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 2e6d603d4c7c95748b2ed34e92fa66e2
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 42
+    spriteID: 6368eca398461aa4ca0ef582b0459566
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 881ac403f1f298b4e9a8ce8aced2b15f
+    layerID: 9
+    mosaicPosition: {x: 4, y: 873}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PantoIzquierda
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 687bf489f5ea0a84fa3dc4ce60ccb139
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pintura interactiva
+    spriteName: 
+    isGroup: 1
+    parentIndex: 45
+    spriteID: 6d06e7dd1a6da2848995ff6119efda22
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: <Grupo>
+    spriteName: <Grupo>
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 95ec8dc7307871b43b9c12738d249923
+    layerID: 3
+    mosaicPosition: {x: 509, y: 1177}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

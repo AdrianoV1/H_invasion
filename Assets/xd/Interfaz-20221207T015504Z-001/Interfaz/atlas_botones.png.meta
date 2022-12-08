@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 25d4ffea95865dc46b9168f05827a4ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlas_botones_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2226
+        width: 871
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889686d9c4ebd2498b24c04dec4b70d
+      internalID: -1278698112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_1
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2188
+        width: 1176
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4114300924f31994893aa9c84f4017b6
+      internalID: 810952426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1866
+        width: 667
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2654565c7b2cdfd48a8b49659b9b5dd6
+      internalID: 2065240564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_3
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1830
+        width: 754
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7d6b79aea4d0b4983154dc93e38b71
+      internalID: 1373684332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1647
+        width: 182
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cd32e50b40e5d47876fb82389f0924
+      internalID: -766675669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1647
+        width: 400
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4908821c16463e458df396988ebc367
+      internalID: 536603906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_17
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1645
+        width: 459
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933098ca0d9a6774fa234a0df04558e8
+      internalID: 1576531593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_30
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1645
+        width: 446
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff18d69ffad9c1f42a5ebc7ba40da8ae
+      internalID: -1122540676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1479
+        width: 404
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec9c3416025cf1468d0296cdee64a0b
+      internalID: -2022616852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_40
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1494
+        width: 330
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b3b3d878474844b9bed5a32681eb0
+      internalID: 151388938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_45
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1102
+        width: 871
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8ff7fa55379494fb233b67e5c55288
+      internalID: -1337482572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_46
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1096
+        width: 1197
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9639a43151b34a4d874441369a1294a
+      internalID: -714212590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_47
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 821
+        width: 667
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81055f0313fc7f74ea570b1f5bda49c4
+      internalID: 919495338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_botones_48
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 746
+        width: 754
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969902da5ec4bb54e8a5654c7f094cfb
+      internalID: 953171985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      atlas_botones_6: -1134907382
+      atlas_botones_30: -1122540676
+      atlas_botones_28: -1920777797
+      atlas_botones_33: 1661530457
+      atlas_botones_46: -714212590
+      atlas_botones_36: -1293052799
+      atlas_botones_4: -766675669
+      atlas_botones_29: -1336583886
+      atlas_botones_47: 919495338
+      atlas_botones_23: -1068929032
+      atlas_botones_34: -752345037
+      atlas_botones_19: 1510647209
+      atlas_botones_11: -222407223
+      atlas_botones_17: 1576531593
+      atlas_botones_32: -397473056
+      atlas_botones_0: -1278698112
+      atlas_botones_31: -2022616852
+      atlas_botones_7: 1500503401
+      atlas_botones_10: -1374414413
+      atlas_botones_43: -1337559938
+      atlas_botones_41: 1797505231
+      atlas_botones_13: -135452312
+      atlas_botones_15: 1076507640
+      atlas_botones_44: -1561720357
+      atlas_botones_3: 1373684332
+      atlas_botones_27: 1535181217
+      atlas_botones_22: 157454392
+      atlas_botones_39: -384417401
+      atlas_botones_14: 1201465676
+      atlas_botones_20: 1796993480
+      atlas_botones_1: 810952426
+      atlas_botones_25: -1750612422
+      atlas_botones_48: 953171985
+      atlas_botones_8: 536603906
+      atlas_botones_5: 900975801
+      atlas_botones_16: 139714456
+      atlas_botones_42: -1439924196
+      atlas_botones_35: -752220838
+      atlas_botones_38: -241590548
+      atlas_botones_24: 1273090145
+      atlas_botones_40: 151388938
+      atlas_botones_9: -1857375888
+      atlas_botones_12: 1285456214
+      atlas_botones_18: -943849004
+      atlas_botones_26: -896632331
+      atlas_botones_2: 2065240564
+      atlas_botones_45: -1337482572
+      atlas_botones_37: -2110806687
+      atlas_botones_21: -1108202910
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
