@@ -8,6 +8,8 @@ TagManager:
   - OverH
   - bullet
   - enemyBullet
+  - wall
+  - death
   layers:
   - Default
   - TransparentFX

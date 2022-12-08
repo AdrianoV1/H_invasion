@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
             ShootBullet(1);
-            if (timeCharge <= maxCharge)
+            /*if (timeCharge <= maxCharge)
             {
                 timeCharge += 0.01f;
             }
@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             ShootBullet((int)timeCharge);
-            timeCharge = 0;
+            timeCharge = 0;*/
         }
     }
 
@@ -136,6 +136,9 @@ public class Player : MonoBehaviour
             ReciveDamage(9);
             Destroy(collision.gameObject);
         }
-        //Debug.Log("a");
+        if (collision.CompareTag("death"))
+        {
+            StartCoroutine(Death());
+        }
     }
 }

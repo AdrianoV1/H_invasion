@@ -33,8 +33,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject Bullet;
     [SerializeField] private Transform point;
 
-    public bool jugadorVisto;
-    public bool ataqueIniciado;
+    public bool playerSighted;
+    public bool atackStarted;
 
     void Awake()
     {       
@@ -50,11 +50,11 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {        
-        Moviment();
-        MirarJugador();
+        Movement();
+        FollowPlayer();
     }
 
-    public void ReciveDamage(int Damage)
+    public void TakeDamage(int Damage)
     {
         life -= Damage;
         Sliderlife.value = life;
@@ -64,67 +64,51 @@ public class Enemy : MonoBehaviour
         }
     }
         
-    private void Moviment()
+    private void Movement()
     {
 
         if (Vector2.Distance(transform.position,PlayerT.position) > DistanceBreak)
         {
-            if (!ataqueIniciado)
+            if (!atackStarted)
             {
                 counter += Time.deltaTime * Speed;
 
                 transform.position = new Vector2(Mathf.PingPong(counter, legth) + StarPosition, transform.position.y);
                 ActualPosition = transform.position.x;
-                if (ActualPosition <= LastrPosition) transform.localScale = new Vector3(-45, 51, 1);
-                if (ActualPosition >= LastrPosition) transform.localScale = new Vector3(45, 51, 1);
+                if (ActualPosition <= LastrPosition) this.transform.eulerAngles = new Vector3(0, 0, 0);;
+                    if (ActualPosition >= LastrPosition) this.transform.eulerAngles = new Vector3(0, 180, 0);
                 LastrPosition = transform.position.x;
             }
 
-            if (jugadorVisto)
+            if (playerSighted)
             {
-                jugadorVisto = false;
+                playerSighted = false;
                 CancelInvoke("Shoot");
             }
         }
         else
         {
-            if (!jugadorVisto)
+            if (!playerSighted)
             {
-                jugadorVisto = true;
+                playerSighted = true;
                 InvokeRepeating("Shoot",0,1);
             }
 
-            ataqueIniciado = true;
+            atackStarted = true;
         }
         if (Vector2.Distance(transform.position, PlayerT.position) < DistanceBack)
         {
             //transform.position = Vector2.MoveTowards(transform.position, PlayerT.position, -Speed*Time.deltaTime);
-            //Flip();
-            //Shoot();
         }
         if (Vector2.Distance(transform.position, PlayerT.position) < DistanceBreak && Vector2.Distance(transform.position, PlayerT.position) > DistanceBack)
         {
             //transform.position = transform.position;
-            //Flip();
-            //Shoot();
         }                
     }
 
-    /*private void Flip()
+    void FollowPlayer()
     {
-        if (PlayerT.position.x > this.transform.position.x)
-        {
-            this.transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-        else
-        {
-            this.transform.eulerAngles = new Vector3(0, 180, 0);
-        }
-    }*/
-
-    void MirarJugador()
-    {
-        if (jugadorVisto)
+        if (playerSighted)
         {
             if (PlayerT.position.x > this.transform.position.x)
             {
@@ -135,54 +119,27 @@ public class Enemy : MonoBehaviour
                 this.transform.eulerAngles = new Vector3(0, 0, 0);
             }
         }
-        
     }
 
     private void Shoot()
     {
-        /*time += Time.deltaTime;
-        if (time >=1)
-        {
-            Instantiate(Bullet,point.position, point.rotation);
-            time= 0;
-        }*/
         Instantiate(Bullet, point.position, point.rotation);
     }
-
-    /*void IniciarAtaque()
-    {
-        if ()
-        {
-
-        }
-    }*/
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.GetComponent<Player>().ReciveDamage(giveDamage);
-        }
-    }
-
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(transform.position, DistanceBreak);
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, DistanceBack);
-
-
     }
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("bullet"))
         {
-            ReciveDamage(10);
+            TakeDamage(9);
             Destroy(collision.gameObject);
         }
-        //Debug.Log("a");
     }
 }

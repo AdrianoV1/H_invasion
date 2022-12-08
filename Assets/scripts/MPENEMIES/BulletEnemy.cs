@@ -8,26 +8,35 @@ public class BulletEnemy : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField, Range(100, 1000)] private float Speed = 100;
     [SerializeField] private int Damage = 9;
-    // Start is called before the first frame update
+    public GameObject collisionParticles;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        StartCoroutine("WaitToDestroy");
     }
 
-    // Update is called once per frame
     void Update()
     {
         rb.velocity = transform.right*-1 * Speed;
     }
 
+    IEnumerator WaitToDestroy()
+    {
+        yield return new WaitForSeconds(2);
+        Instantiate(collisionParticles, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("wall"))
         {
-            //collision.gameObject.GetComponent<Player>().ReciveDamage(Damage);
-            //collision.GetComponent<Player>().ReciveDamage(Damage,pos);
+            Instantiate(collisionParticles, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
-        //Destroy(gameObject,0.1f);
+        if (collision.CompareTag("Player"))
+        {
+            Instantiate(collisionParticles, transform.position, Quaternion.identity);
+        }
     }
 }

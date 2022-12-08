@@ -575,7 +575,7 @@ MonoBehaviour:
   legth: 45.6
   counter: 1
   StarPosition: 1
-  DistanceBreak: 155
+  DistanceBreak: 160
   DistanceBack: 81
   VisionRange: 4.39
   giveDamage: 0
@@ -583,8 +583,8 @@ MonoBehaviour:
   Sliderlife: {fileID: 2338476956823769757}
   Bullet: {fileID: 123680158659656901, guid: 7b9f1e348dcae514bac3bfcadd962f5e, type: 3}
   point: {fileID: 2338476957318413457}
-  jugadorVisto: 0
-  ataqueIniciado: 0
+  playerSighted: 0
+  atackStarted: 0
 --- !u!1 &2338476958328610359
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,14 @@ public class ControllerScene : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private AnimationClip clip;
     [SerializeField] private int scene;
+
+    public GameObject transitionCanvas;
+
+    private void OnEnable()
+    {
+        transitionCanvas.SetActive(true);
+    }
+
     public void ChangeScene()
     {
         StartCoroutine(Change());

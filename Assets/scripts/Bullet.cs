@@ -10,6 +10,8 @@ public class Bullet : MonoBehaviour
     [SerializeField, Range(100,1000)]private float Speed = 100;
     [SerializeField]private int Damage;
 
+    public GameObject collisionParticles;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,25 +25,27 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*if (collision.CompareTag("enemy"))
+        if (collision.CompareTag("enemyBullet"))
         {
-            //collision.GetComponent<Enemy>().ReciveDamage(Damage);
-            Destroy(gameObject);
-        }else if (collision.CompareTag("OverH"))
-        {
-            //collision.GetComponent<OverH>().ReciveDamage(Damage);
-            Destroy(gameObject);
-        }else if (collision.CompareTag("Eve"))
-        {
-            //collision.GetComponent<Eve>().ReciveDamage(Damage);
+            Destroy(collision.gameObject);
+            Instantiate(collisionParticles, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
-        Destroy(gameObject);*/
+        if (collision.CompareTag("wall"))
+        {
+            Instantiate(collisionParticles, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+        if (collision.CompareTag("enemy"))
+        {
+            Instantiate(collisionParticles, transform.position, Quaternion.identity);
+        }
     }
 
     IEnumerator WaitToDestroy()
     {
         yield return new WaitForSeconds(.6f);
+        Instantiate(collisionParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
