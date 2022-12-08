@@ -76,16 +76,16 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
             ShootBullet(1);
-            /*if (timeCharge <= maxCharge)
+            if (timeCharge <= maxCharge)
             {
                 timeCharge += 0.01f;
-            }*/
+            }
         }
-        /*if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
             ShootBullet((int)timeCharge);
             timeCharge = 0;
-        }*/
+        }
     }
 
     private void ShootBullet(int chargerTime)
