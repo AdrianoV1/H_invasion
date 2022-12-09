@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
     {
         if(Input.GetKeyDown("space") && CheckGround.isGrounded)
         {
+            Debug.Log("jump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
