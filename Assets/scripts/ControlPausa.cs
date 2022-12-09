@@ -36,6 +36,7 @@ public class ControlPausa : MonoBehaviour
 
     public void Menu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
 }

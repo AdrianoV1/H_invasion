@@ -10,6 +10,7 @@ TagManager:
   - enemyBullet
   - wall
   - death
+  - kit
   layers:
   - Default
   - TransparentFX

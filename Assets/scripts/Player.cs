@@ -40,6 +40,9 @@ public class Player : MonoBehaviour
     private float timer = 5;
     private bool wait = false;
 
+    public int kitAmount;
+    public Text kitAmountText;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();  
@@ -59,8 +62,10 @@ public class Player : MonoBehaviour
             Utils.Movement(rb, Speed, Horizontal, transform, anim);
             Jump();
             Shoot();
+            Recover();
         }
         SliderLife.value = life;
+        kitAmountText.text = "x" + kitAmount;
     }
 
    private void Jump()
@@ -129,6 +134,15 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene(scenes.name);
     }
 
+    void Recover()
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && kitAmount>0)
+        {
+            kitAmount--;
+            life += 50; 
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemyBullet"))
@@ -139,6 +153,11 @@ public class Player : MonoBehaviour
         if (collision.CompareTag("death"))
         {
             StartCoroutine(Death());
+        }
+        if (collision.CompareTag("kit"))
+        {
+            Destroy(collision.gameObject);
+            kitAmount++;
         }
     }
 }
