@@ -78,18 +78,18 @@ public class Player : MonoBehaviour
     
     private void Shoot()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKey(KeyCode.E))
         {
-            ShootBullet(1);
-            /*if (timeCharge <= maxCharge)
+            //ShootBullet(1);
+            if (timeCharge <= maxCharge)
             {
                 timeCharge += 0.01f;
             }
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.E))
         {
             ShootBullet((int)timeCharge);
-            timeCharge = 0;*/
+            timeCharge = 0;
         }
     }
 
