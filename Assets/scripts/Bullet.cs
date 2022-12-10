@@ -6,30 +6,35 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Bullet : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    [SerializeField, Range(100,1000)]private float Speed = 100;
-    [SerializeField]private int Damage;
+    public float speed;
+    public float damage;
+    public bool breakEnemyBullets;
 
     public GameObject collisionParticles;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         StartCoroutine("WaitToDestroy");
     }
 
     void Update()
     {
-        rb.velocity = transform.right * Speed;
+        transform.Translate(Vector2.right*speed*Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemyBullet"))
         {
-            Destroy(collision.gameObject);
-            Instantiate(collisionParticles, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            if (breakEnemyBullets)
+            {
+                Destroy(collision.gameObject);
+            }
+            else
+            {
+                Instantiate(collisionParticles, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            }
         }
         if (collision.CompareTag("wall"))
         {
@@ -44,7 +49,7 @@ public class Bullet : MonoBehaviour
 
     IEnumerator WaitToDestroy()
     {
-        yield return new WaitForSeconds(.6f);
+        yield return new WaitForSeconds(.7f);
         Instantiate(collisionParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

@@ -4,98 +4,77 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
-    [Header("Player")]
-    private Rigidbody2D rb;
-    [SerializeField, Range(100, 1000)] private float Speed = 100;
-    private float Horizontal;
-    private Animator anim;
+    float directionalInput;
 
-    [Header("Jump")]
-    [SerializeField] private float jumpForce = 1;
+    public GameObject[] bulletsPrefabs;
+    public Transform bulletOrigin;
+    public float currentCharge;
+    public float maxCharge;
 
-    [Header("Bala")]
-    [SerializeField] private GameObject[] Bullet;
-    [SerializeField] private Transform point;
-    [SerializeField] private float maxCharge;
-    [SerializeField] private float timeCharge;
-
-    [Header("Life")]
-    [SerializeField] private Slider SliderLife;
-    private int life = 200;
-
-    [Header("Daño")]
-    private bool CanMove = true;
-    [SerializeField]private Vector2 BoundSpeed;
-    [SerializeField] private float TimeLost;
-
-    [Header("Death")]
-    [SerializeField]private float deathTime;
-    private Scene scenes;
-
-    [Header("Special Shott")]
-    private float timer = 5;
-    private bool wait = false;
+    public Slider SliderLife;
+    private int maxLife = 200;
 
     public int kitAmount;
     public Text kitAmountText;
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();  
-        anim= GetComponent<Animator>();
-        scenes = SceneManager.GetActiveScene();
-    }
+    public Animator animator;
+    public Transform sprite;
+
+    public ParticleSystem chargingParticles;
+
     void Start()
     {
-        SliderLife.maxValue= life;
+        SliderLife.maxValue= maxLife;
         SliderLife.value = SliderLife.maxValue;
     }
 
     void Update()
     {
-        if (CanMove)
-        {
-            Utils.Movement(rb, Speed, Horizontal, transform, anim);
-            Jump();
-            Shoot();
-            Recover();
-        }
-        SliderLife.value = life;
+        Shoot();
+        Recover();
+        SliderLife.value = maxLife;
         kitAmountText.text = "x" + kitAmount;
+        SwitchAnims();
     }
 
-   private void Jump()
-    {
-        if(Input.GetKeyDown("space") && CheckGround.isGrounded)
-        {
-            Debug.Log("jump");
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
-    }
-    
     private void Shoot()
     {
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
-            //ShootBullet(1);
-            if (timeCharge <= maxCharge)
+            currentCharge = 0;
+            chargingParticles.Play();
+        }
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            //InstantiateBullet(1);
+            if (currentCharge<1)
             {
-                timeCharge += 0.01f;
+                currentCharge += Time.deltaTime;
             }
         }
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
         {
-            ShootBullet((int)timeCharge);
-            timeCharge = 0;
+            if (currentCharge < .5f)
+            {
+                Instantiate(bulletsPrefabs[0], bulletOrigin.transform.position, bulletOrigin.rotation);
+            }
+            else if (currentCharge >=.5f && currentCharge < .9f)
+            {
+                Instantiate(bulletsPrefabs[1], bulletOrigin.transform.position, bulletOrigin.rotation);
+            }
+            else if (currentCharge >=.9f)
+            {
+                Instantiate(bulletsPrefabs[2], bulletOrigin.transform.position, bulletOrigin.rotation);
+            }
+            chargingParticles.Stop();
         }
     }
 
-    private void ShootBullet(int chargerTime)
+    private void InstantiateBullet(int chargeTime)
     {
-        Instantiate(Bullet[chargerTime], point.position,point.rotation);
+        
     }
 
     public void Healthlife(int healthLife)
@@ -103,35 +82,20 @@ public class Player : MonoBehaviour
         SliderLife.value += healthLife;
     }
 
-    public void ReciveDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        life -= damage;
-        Bound(new Vector2(10,10));
-        StartCoroutine(LostControl());
-        if (life <= 0)
+        maxLife -= damage;
+        if (maxLife <= 0)
         {
 
-            StartCoroutine(Death());
+            Die();
         }
     }
-
-    public void Bound(Vector2 KnockPoint)
+    
+    public void Die()
     {
-        rb.velocity = new Vector2(-BoundSpeed.x * KnockPoint.x, BoundSpeed.y);
-    }
-
-    private IEnumerator LostControl()
-    {
-        CanMove = false;
-        yield return new WaitForSeconds(TimeLost);
-        CanMove = true;
-    }
-
-    private IEnumerator Death()
-    {
-        anim.SetBool("Death",true);
-        yield return new WaitForSeconds(deathTime);
-        SceneManager.LoadScene(scenes.name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Die");
     }
 
     void Recover()
@@ -139,25 +103,27 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q) && kitAmount>0)
         {
             kitAmount--;
-            life += 50; 
+            maxLife += 50; 
         }
-    }
+    }    
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void SwitchAnims()
     {
-        if (collision.CompareTag("enemyBullet"))
+        directionalInput = Input.GetAxisRaw("Horizontal");
+
+        if (directionalInput >= 1)
         {
-            ReciveDamage(9);
-            Destroy(collision.gameObject);
+            sprite.eulerAngles = new Vector3(0, 0, 0);
+            animator.SetBool("Run", true);
         }
-        if (collision.CompareTag("death"))
+        else if (directionalInput <= -1)
         {
-            StartCoroutine(Death());
+            sprite.eulerAngles = new Vector3(0, 180, 0);
+            animator.SetBool("Run", true);
         }
-        if (collision.CompareTag("kit"))
+        else
         {
-            Destroy(collision.gameObject);
-            kitAmount++;
+            animator.SetBool("Run", false);
         }
     }
 }

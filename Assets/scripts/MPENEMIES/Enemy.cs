@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour
             if (!playerSighted)
             {
                 playerSighted = true;
-                InvokeRepeating("Shoot",0,1);
+                InvokeRepeating("Shoot",0,2);
             }
 
             atackStarted = true;

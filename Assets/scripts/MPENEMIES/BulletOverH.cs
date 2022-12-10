@@ -27,7 +27,7 @@ public class BulletOverH : MonoBehaviour
     {
         if (collision.CompareTag("Player")) 
         { 
-            collision.GetComponent<Player>().ReciveDamage(Damage);
+            collision.GetComponent<Player>().TakeDamage(Damage);
             Destroy(gameObject);
         }
         else

@@ -37,7 +37,7 @@ public static class UtilsEnemy
         Collider2D[] objects = Physics2D.OverlapCircleAll(Control.position, Radious);
         foreach (Collider2D collision in objects)
         {
-            collision.GetComponent<Player>().ReciveDamage(Attack);
+            collision.GetComponent<Player>().TakeDamage(Attack);
         }
     }
 }

@@ -11,11 +11,14 @@ TagManager:
   - wall
   - death
   - kit
+  - tuto1
+  - tuto2
+  - tutoEnd
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 

@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 685193219}
   - component: {fileID: 685193218}
   - component: {fileID: 685193217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2a (3)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -2328,7 +2328,7 @@ GameObject:
   - component: {fileID: 972924464}
   - component: {fileID: 972924463}
   - component: {fileID: 972924466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2a (2)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -2926,7 +2926,7 @@ GameObject:
   - component: {fileID: 1163278394}
   - component: {fileID: 1163278397}
   - component: {fileID: 1163278398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3b
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -3468,7 +3468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 1707356412}
   clip: {fileID: 7400000, guid: 91a7f086316e9a04fb83139e2b12b489, type: 2}
-  scene: 3
+  scene: 4
 --- !u!61 &1329492003
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3593,7 +3593,7 @@ GameObject:
   - component: {fileID: 1459683164}
   - component: {fileID: 1459683163}
   - component: {fileID: 1459683165}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -23416,7 +23416,7 @@ GameObject:
   - component: {fileID: 1740254109}
   - component: {fileID: 1740254108}
   - component: {fileID: 1740254107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2a (1)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -23822,7 +23822,7 @@ GameObject:
   - component: {fileID: 1867582725}
   - component: {fileID: 1867582724}
   - component: {fileID: 1867582726}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2a
   m_TagString: wall
   m_Icon: {fileID: 0}
