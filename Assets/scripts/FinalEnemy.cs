@@ -38,11 +38,10 @@ public class FinalEnemy : MonoBehaviour
     }
     private void Distance()
     {
-        /*Lanza[0].SetActive(true);
+        Lanza[0].SetActive(true);
         Lanza[0].transform.position = points.position;
         Lanza[0].transform.rotation= transform.rotation;
-        Lanza[0].GetComponent<BulletEnemy>().Speed = 500;*/
-        Instantiate(Lanza[0],points.position, transform.rotation);
+        Lanza[0].GetComponent<BulletEnemy>().Speed = 500;
     }
 
     private bool CheckCollision
@@ -117,15 +116,12 @@ public class FinalEnemy : MonoBehaviour
                 }
                 break;
             case 1:
-                anim.SetBool("Bumerang",true);
-                break; 
+                anim.SetBool("Lanza",true);
+                break;             
             case 2:
-                anim.SetBool("Shield", true);
-                break;
-            case 3:
                 anim.SetBool("Jump", true);
                 break;
-            case 4:
+            case 3:
                 anim.SetBool("Special", true);
                 break;
         }
