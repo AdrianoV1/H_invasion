@@ -41,9 +41,12 @@ public class BossBattleController : MonoBehaviour
     public RectTransform dialogBoxShowPos;
     public RectTransform dialogBoxHidePos;
 
+    public string bossPossition;
+
     private void Start()
     {
         dialogPhase = 0;
+        bossPossition = "right";
     }
 
     private void Update()
@@ -87,24 +90,43 @@ public class BossBattleController : MonoBehaviour
         BackgroundConversationAppears();
     }
 
+    void MoveLeftRight()
+    {
+        switch (bossPossition)
+        {
+            case "left":
+                RunToRightPoint();
+                break;
+            case "right":
+                RunToLeftPoint();
+                break;
+        }
+    }
+
     public void RunToLeftPoint()
     {
+        CancelInvoke("Shoot");
         bossTr.DOMoveX(attackPointLeft.position.x,3).SetEase(Ease.Flash).OnComplete(PointToRight);
     }
 
     void PointToRight()
     {
+        bossPossition = "left";
         bossTr.rotation = Quaternion.Euler(0, 0, 0);
+        InvokeRepeating("Shoot",0,2);
     }
 
     public void RunToRightPoint()
     {
+        CancelInvoke("Shoot");
         bossTr.DOMoveX(attackPointRight.position.x, 3).SetEase(Ease.Flash).OnComplete(PointToLeft);
     }
 
     void PointToLeft()
     {
+        bossPossition = "right";
         bossTr.rotation = Quaternion.Euler(0, 180, 0);
+        InvokeRepeating("Shoot", 0, 2);
     }
 
     public void Jump()
@@ -218,7 +240,8 @@ public class BossBattleController : MonoBehaviour
                 HideDialogBox0();
                 HideOverHImage();
                 BackgroundConversationDisappears();
-                playerControllerScript.controlsEnabled = true;
+                dialogPhase = 6;
+                StartCoroutine("WaitToStartBattle");
                 break;
         }
 
@@ -231,12 +254,12 @@ public class BossBattleController : MonoBehaviour
 
     void HideDialogBox0()
     {
-        dialogBox.DOLocalMoveY(dialogBoxHidePos.position.y, .5f);
+        dialogBox.DOMoveY(dialogBoxHidePos.position.y, .5f);
     }
 
     void HideDialogBox()
     {
-        dialogBox.DOLocalMoveY(dialogBoxHidePos.position.y, .5f).OnComplete(ChangeText);
+        dialogBox.DOMoveY(dialogBoxHidePos.position.y, .5f).OnComplete(ChangeText);
     }
 
     void ChangeText()
@@ -245,5 +268,15 @@ public class BossBattleController : MonoBehaviour
         ShowDialogBox();
     }
 
-    
+    IEnumerator WaitToStartBattle()
+    {
+        yield return new WaitForSeconds(.5f);
+        playerControllerScript.controlsEnabled = true;
+        StartMoving();
+    }
+
+    void StartMoving()
+    {
+        InvokeRepeating("MoveLeftRight", 0,10);
+    }
 }
