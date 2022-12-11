@@ -6,7 +6,7 @@ using UnityEngine;
 public class BulletEnemy : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField, Range(100, 1000)] private float Speed = 100;
+    public float Speed = 100;
     [SerializeField] private int Damage = 9;
     public GameObject collisionParticles;
     void Start()
