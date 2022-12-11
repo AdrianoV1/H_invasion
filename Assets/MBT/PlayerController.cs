@@ -26,7 +26,10 @@ namespace TarodevController {
         private bool _active;
         void Awake() => Invoke(nameof(Activate), 0.5f);
         void Activate() =>  _active = true;
-        
+
+        public bool controlsEnabled;
+        public Player playerScript;
+
         private void Update() {
             if(!_active) return;
             // Calculate velocity
@@ -36,12 +39,22 @@ namespace TarodevController {
             GatherInput();
             RunCollisionChecks();
 
-            CalculateWalk(); // Horizontal movement
+            if (controlsEnabled)
+            {
+                CalculateWalk(); // Horizontal movement
+                CalculateJump(); // Possibly overrides vertical
+            }
+            else
+            {
+                _currentHorizontalSpeed = Mathf.MoveTowards(_currentHorizontalSpeed, 0, _deAcceleration * Time.deltaTime);
+                playerScript.animator.SetBool("Run", false);
+            }
+
             CalculateJumpApex(); // Affects fall speed, so calculate before gravity
             CalculateGravity(); // Vertical movement
-            CalculateJump(); // Possibly overrides vertical
 
             MoveCharacter(); // Actually perform the axis movement
+
         }
 
 
@@ -173,6 +186,12 @@ namespace TarodevController {
                 _currentHorizontalSpeed = 0;
             }
         }
+
+        /*public void StopMovement()
+        {
+            _currentHorizontalSpeed = Mathf.MoveTowards(_currentHorizontalSpeed, 0, _deAcceleration * Time.deltaTime);
+
+        }*/
 
         #endregion
 

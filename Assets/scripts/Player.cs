@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public TarodevController.PlayerController playerControllerScript;
+
     float directionalInput;
 
     public GameObject[] bulletsPrefabs;
@@ -32,11 +34,15 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        Shoot();
-        Recover();
+        if (playerControllerScript.controlsEnabled)
+        {
+            Shoot();
+            Recover();
+            SwitchAnims();
+        }
+        
         SliderLife.value = maxLife;
         kitAmountText.text = "x" + kitAmount;
-        SwitchAnims();
     }
 
     private void Shoot()

@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int giveDamage;
 
     [Header("Life Enemy")]
-    public int life;
+    public float life;
     [SerializeField]private Slider Sliderlife;
     private bool Death = false;
 
@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour
         FollowPlayer();
     }
 
-    public void TakeDamage(int Damage)
+    public void TakeDamage(float Damage)
     {
         life -= Damage;
         Sliderlife.value = life;
@@ -138,7 +138,8 @@ public class Enemy : MonoBehaviour
     {
         if (collision.CompareTag("bullet"))
         {
-            TakeDamage(9);
+            TakeDamage(collision.GetComponent<Bullet>().damage);
+            Debug.Log("Damage:" + collision.GetComponent<Bullet>().damage);
             Destroy(collision.gameObject);
         }
     }

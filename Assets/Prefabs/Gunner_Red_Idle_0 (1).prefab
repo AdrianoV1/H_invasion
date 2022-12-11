@@ -579,7 +579,7 @@ MonoBehaviour:
   DistanceBack: 81
   VisionRange: 4.39
   giveDamage: 0
-  life: 24
+  life: 34
   Sliderlife: {fileID: 2338476956823769757}
   Bullet: {fileID: 123680158659656901, guid: 7b9f1e348dcae514bac3bfcadd962f5e, type: 3}
   point: {fileID: 2338476957318413457}
