@@ -47,12 +47,12 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
+        if (Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.L))
         {
             currentCharge = 0;
             chargingParticles.Play();
         }
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        if (Input.GetKey(KeyCode.L) || Input.GetKey(KeyCode.L))
         {
             //InstantiateBullet(1);
             if (currentCharge<1)
@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
                 currentCharge += Time.deltaTime;
             }
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
+        if (Input.GetKeyUp(KeyCode.L) || Input.GetKeyUp(KeyCode.L))
         {
             if (currentCharge < .5f)
             {
