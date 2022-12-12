@@ -1876,6 +1876,7 @@ GameObject:
   - component: {fileID: 392883180}
   - component: {fileID: 392883179}
   - component: {fileID: 392883181}
+  - component: {fileID: 392883182}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -1897,6 +1898,7 @@ Transform:
   m_Children:
   - {fileID: 755450912}
   - {fileID: 532341176}
+  - {fileID: 1239234971}
   m_Father: {fileID: 202580835}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1999,6 +2001,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &392883182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392883177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2eba4054e823748904620c5a225086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossBattleController: {fileID: 975769955}
 --- !u!1 &411415789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,7 +4197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &755450912
 Transform:
   m_ObjectHideFlags: 0
@@ -5346,6 +5361,8 @@ MonoBehaviour:
   dialogBoxShowPos: {fileID: 216073082}
   dialogBoxHidePos: {fileID: 52067764}
   bossPossition: 
+  animatorOverH: {fileID: 1239234969}
+  isJumping: 0
 --- !u!61 &975769956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7124,7 +7141,7 @@ GameObject:
   - component: {fileID: 1239234970}
   - component: {fileID: 1239234969}
   m_Layer: 0
-  m_Name: Over H
+  m_Name: SpriteOverH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7209,13 +7226,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239234968}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2649.6257, y: -333, z: 0}
-  m_LocalScale: {x: -4.1917324, y: 4.429275, z: 1}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -0.6, y: 0.33333334, z: 0}
+  m_LocalScale: {x: -2.7944884, y: 2.95285, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 392883178}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259254811
 GameObject:

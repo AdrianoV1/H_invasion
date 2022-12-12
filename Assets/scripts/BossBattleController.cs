@@ -43,6 +43,9 @@ public class BossBattleController : MonoBehaviour
 
     public string bossPossition;
 
+    public Animator animatorOverH;
+    public bool isJumping;
+
     private void Start()
     {
         dialogPhase = 0;
@@ -53,12 +56,9 @@ public class BossBattleController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            RunToLeftPoint();
+            Jump();
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            RunToRightPoint();
-        }
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             DialogBoxControl();
@@ -82,7 +82,9 @@ public class BossBattleController : MonoBehaviour
             //playerControllerScript.StopMovement();
             StartCoroutine("WaitToStartConversation");
         }
-    }
+            }
+
+    
 
     IEnumerator WaitToStartConversation()
     {
@@ -106,32 +108,42 @@ public class BossBattleController : MonoBehaviour
     public void RunToLeftPoint()
     {
         CancelInvoke("Shoot");
+        CancelInvoke("Jump");
+        animatorOverH.SetBool("Run", true);
         bossTr.DOMoveX(attackPointLeft.position.x,3).SetEase(Ease.Flash).OnComplete(PointToRight);
     }
 
     void PointToRight()
     {
         bossPossition = "left";
+        animatorOverH.SetBool("Run", false);
         bossTr.rotation = Quaternion.Euler(0, 0, 0);
-        InvokeRepeating("Shoot",0,2);
+        InvokeRepeating("Shoot",.5f,1.5f);
+        InvokeRepeating("Jump", 1, 1.5f);
     }
 
     public void RunToRightPoint()
     {
         CancelInvoke("Shoot");
+        CancelInvoke("Jump");
+        animatorOverH.SetBool("Run", true);
         bossTr.DOMoveX(attackPointRight.position.x, 3).SetEase(Ease.Flash).OnComplete(PointToLeft);
     }
 
     void PointToLeft()
     {
         bossPossition = "right";
+        animatorOverH.SetBool("Run", false);
         bossTr.rotation = Quaternion.Euler(0, 180, 0);
-        InvokeRepeating("Shoot", 0, 2);
+        InvokeRepeating("Shoot", .5f, 1.5f);
+        InvokeRepeating("Jump", 1, 1.5f);
     }
 
     public void Jump()
     {
-        bossRb.AddForce(Vector2.up*10000, ForceMode2D.Impulse);
+        bossRb.AddForce(Vector2.up*7000, ForceMode2D.Impulse);
+        animatorOverH.SetBool("Jump", true);
+        isJumping = true;
     }
 
     private void Shoot()
@@ -277,6 +289,6 @@ public class BossBattleController : MonoBehaviour
 
     void StartMoving()
     {
-        InvokeRepeating("MoveLeftRight", 0,10);
+        InvokeRepeating("MoveLeftRight", 0,15);
     }
 }
