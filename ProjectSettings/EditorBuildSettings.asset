@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 001ab050af9d09b45ba17c43bac3ede7
   - enabled: 1
+    path: Assets/Scenes/PrologoTexto.unity
+    guid: fad85af6362fb474d860c2da440b8cad
+  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: bbf9b746318633f4eb2868e103e4ceff
   - enabled: 1

@@ -26,6 +26,7 @@ public class MobilePlatform : MonoBehaviour
 
     private void MovePlatform()
     {
+        FindObjectOfType<AudioManager>().Play("Elevator");
         platform.DOMove(targetPosition.position, 10).SetEase(Ease.Flash);
     }
 }

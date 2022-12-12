@@ -20,6 +20,7 @@ public class ControlPausa : MonoBehaviour
 
     public void Pausar()
     {
+        FindObjectOfType<AudioManager>().Play("UIButton");
         if (isPaused)
         {
             pauseMenu.SetActive(false);
@@ -36,6 +37,7 @@ public class ControlPausa : MonoBehaviour
 
     public void Menu()
     {
+        FindObjectOfType<AudioManager>().Play("UIButton");
         Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }

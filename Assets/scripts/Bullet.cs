@@ -38,11 +38,13 @@ public class Bullet : MonoBehaviour
         }
         if (collision.CompareTag("wall"))
         {
+            FindObjectOfType<AudioManager>().Play("CollisionProjectile");
             Instantiate(collisionParticles, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         if (collision.CompareTag("enemy"))
         {
+            FindObjectOfType<AudioManager>().Play("CollisionProjectile");
             Instantiate(collisionParticles, transform.position, Quaternion.identity);
         }
     }
@@ -50,6 +52,7 @@ public class Bullet : MonoBehaviour
     IEnumerator WaitToDestroy()
     {
         yield return new WaitForSeconds(.7f);
+        FindObjectOfType<AudioManager>().Play("CollisionProjectile");
         Instantiate(collisionParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

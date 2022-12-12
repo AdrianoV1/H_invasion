@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
 
     public bool playerSighted;
     public bool atackStarted;
+    public Animator animator;
 
     void Awake()
     {       
@@ -92,6 +93,8 @@ public class Enemy : MonoBehaviour
             {
                 playerSighted = true;
                 InvokeRepeating("Shoot",0,2);
+                animator.SetBool("Correr", false);
+                FindObjectOfType<AudioManager>().Play("Detected");
             }
 
             atackStarted = true;
@@ -123,6 +126,7 @@ public class Enemy : MonoBehaviour
 
     private void Shoot()
     {
+        FindObjectOfType<AudioManager>().Play("Shot2");
         Instantiate(Bullet, point.position, point.rotation);
     }
     

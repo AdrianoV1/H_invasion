@@ -9,6 +9,7 @@ public class BulletEnemy : MonoBehaviour
     public float Speed = 100;
     [SerializeField] private int Damage = 9;
     public GameObject collisionParticles;
+    public float timeToDestroy;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,7 +23,8 @@ public class BulletEnemy : MonoBehaviour
 
     IEnumerator WaitToDestroy()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(timeToDestroy);
+        FindObjectOfType<AudioManager>().Play("CollisionProjectile");
         Instantiate(collisionParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
@@ -31,11 +33,13 @@ public class BulletEnemy : MonoBehaviour
     {
         if (collision.CompareTag("wall"))
         {
+            FindObjectOfType<AudioManager>().Play("CollisionProjectile");
             Instantiate(collisionParticles, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         if (collision.CompareTag("Player"))
         {
+            FindObjectOfType<AudioManager>().Play("CollisionProjectile");
             Instantiate(collisionParticles, transform.position, Quaternion.identity);
         }
     }

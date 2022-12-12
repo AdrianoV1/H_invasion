@@ -18,11 +18,15 @@ public class ControllerScene : MonoBehaviour
 
     public void ChangeScene()
     {
+        FindObjectOfType<AudioManager>().Play("UIButton");
+        FindObjectOfType<AudioManager>().FadeOutBGM();
         StartCoroutine(Change());
     }
 
     public void Exit()
     {
+        FindObjectOfType<AudioManager>().Play("UIButton");
+        FindObjectOfType<AudioManager>().FadeOutBGM();
         StartCoroutine(Quiting());
     }
 

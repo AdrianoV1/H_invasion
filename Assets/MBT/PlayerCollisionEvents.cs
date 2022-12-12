@@ -14,6 +14,11 @@ public class PlayerCollisionEvents : MonoBehaviour
             playerScript.TakeDamage(9);
             Destroy(collision.gameObject);
         }
+        if (collision.CompareTag("enemy"))
+        {
+            playerScript.TakeDamage(40);
+            //Destroy(collision.gameObject);
+        }
         if (collision.CompareTag("death"))
         {
             playerScript.Die();
@@ -38,5 +43,20 @@ public class PlayerCollisionEvents : MonoBehaviour
             tutorialController.EndTuto();
             Destroy(collision.gameObject);
         }
+        if (collision.CompareTag("wall") && playerScript.isJumping)
+        {
+            //Debug.Log("landed");
+            playerScript.animator.SetBool("Jump", false);
+            playerScript.isJumping = false;
+        }
     }
+
+    /*private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("wall") && playerScript.isJumping)
+        {
+            Debug.Log("landed");
+            playerScript.animator.SetBool("Jump", false);
+        }
+    }*/
 }

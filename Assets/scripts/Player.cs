@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
     public Transform sprite;
 
     public ParticleSystem chargingParticles;
+    public bool isJumping;
+    bool chargedsSfx;
 
     void Start()
     {
@@ -43,36 +45,47 @@ public class Player : MonoBehaviour
         
         SliderLife.value = maxLife;
         kitAmountText.text = "x" + kitAmount;
+
+        if (currentCharge >= 1 && !chargedsSfx)
+        {
+            chargedsSfx = true;
+            FindObjectOfType<AudioManager>().Play("Charge");
+        }
     }
 
     private void Shoot()
     {
-        if (Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.Return))
         {
             currentCharge = 0;
             chargingParticles.Play();
         }
-        if (Input.GetKey(KeyCode.L) || Input.GetKey(KeyCode.L))
+        if (Input.GetKey(KeyCode.L) || Input.GetKey(KeyCode.Return))
         {
             //InstantiateBullet(1);
             if (currentCharge<1)
             {
-                currentCharge += Time.deltaTime;
+                currentCharge += Time.deltaTime * .5f;
             }
         }
-        if (Input.GetKeyUp(KeyCode.L) || Input.GetKeyUp(KeyCode.L))
+        if (Input.GetKeyUp(KeyCode.L) || Input.GetKeyUp(KeyCode.Return))
         {
             if (currentCharge < .5f)
             {
+                FindObjectOfType<AudioManager>().Play("Shot3");
                 Instantiate(bulletsPrefabs[0], bulletOrigin.transform.position, bulletOrigin.rotation);
             }
             else if (currentCharge >=.5f && currentCharge < .9f)
             {
+                FindObjectOfType<AudioManager>().Play("Shot2");
                 Instantiate(bulletsPrefabs[1], bulletOrigin.transform.position, bulletOrigin.rotation);
             }
             else if (currentCharge >=.9f)
             {
+                FindObjectOfType<AudioManager>().Play("Shot1");
                 Instantiate(bulletsPrefabs[2], bulletOrigin.transform.position, bulletOrigin.rotation);
+                currentCharge = 0;
+                chargedsSfx = false;
             }
             chargingParticles.Stop();
         }
@@ -120,16 +133,28 @@ public class Player : MonoBehaviour
         if (directionalInput >= 1)
         {
             sprite.eulerAngles = new Vector3(0, 0, 0);
-            animator.SetBool("Run", true);
+            if (!isJumping)
+            {
+                animator.SetBool("Run", true);
+            }
         }
         else if (directionalInput <= -1)
         {
             sprite.eulerAngles = new Vector3(0, 180, 0);
-            animator.SetBool("Run", true);
+            if (!isJumping)
+            {
+                animator.SetBool("Run", true);
+            }
         }
         else
         {
             animator.SetBool("Run", false);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("Run", false);
+            animator.SetBool("Jump", true);
+            isJumping = true;
         }
     }
 }

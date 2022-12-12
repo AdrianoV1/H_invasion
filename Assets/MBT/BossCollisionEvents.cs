@@ -15,4 +15,14 @@ public class BossCollisionEvents : MonoBehaviour
             //Debug.Log("land");
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("bullet"))
+        {
+            bossBattleController.TakeDamage(collision.GetComponent<Bullet>().damage);
+            Debug.Log("Damage:" + collision.GetComponent<Bullet>().damage);
+            Destroy(collision.gameObject);
+        }
+    }
 }
